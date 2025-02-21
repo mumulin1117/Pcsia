@@ -287,7 +287,7 @@ class PEAUPcsiaHemrChallengnng: UIViewController,UICollectionViewDelegate,UIColl
         peacCell.changeHeighTitlePEAview.text =  peacCellDATA["TitleNamePEAMakeup"]
         peacCell.changdescribPEAview.text =  peacCellDATA["BriefPEAMakeup"]
         peacCell.changeCoverPEAview.image = UIImage(named: peacCellDATA["CoverPEAMakeup"]  ?? "")
-       
+        peacCell.participateHeaderPEA.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tapuseravotPEAU(imagrtag:))))
         if let partyheaderstr = peacCellDATA["partyHeaderlPEA"] {
             peacCell.participateHeaderPEA.image = UIImage(named: partyheaderstr )
             peacCell.partipatCountPEAView.isHidden = false
@@ -303,6 +303,30 @@ class PEAUPcsiaHemrChallengnng: UIViewController,UICollectionViewDelegate,UIColl
        
        
         return peacCell
+    }
+    
+   @objc func tapuseravotPEAU(imagrtag:UITapGestureRecognizer)  {
+       var pinkfont = UIFont.systemFont(ofSize: 12, weight: .medium)
+      
+       var handsDreamPEA = self.title ?? ""
+       if handsDreamPEA == ""{
+           handsDreamPEA = "inspiration"
+       }else{
+           handsDreamPEA.append("pinkper")
+       }
+       
+       if let psuort = imagrtag.view?.tag {
+           if let ramdomef = PEMAMakingupCreater.unniqiePEa.PEAAllNormalUser.randomElement() {
+               let peacCellDATA = pickresultPEa[psuort]
+               
+               let persongPEAU = PEAFrendCentertutyingfing.init(depthlongPEA: pinkfont, changeDescibeDatPEA: ramdomef, browsePEA: handsDreamPEA)
+               self.navigationController?.pushViewController(persongPEAU, animated: true)
+           }
+       }
+       
+      
+       
+        
     }
     
    @objc func reporthangePagePEAchn(_ sender: Any) {
