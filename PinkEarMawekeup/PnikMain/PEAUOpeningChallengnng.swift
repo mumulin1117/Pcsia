@@ -280,7 +280,7 @@ class PEAUOpeningChallengnng: UIViewController {
                     }
                     
                    
-                    let totladhktuPEAU = linknsavedPEAU  + geihuing[0] + "\(PEAUExploreBrowse.ynamicsPEAU.apppiiiddddPEAU)"  + geihuing[1] + eokensavedPEAU
+                    let totladhktuPEAU = linknsavedPEAU + "/" + geihuing[0] + "\(PEAUExploreBrowse.ynamicsPEAU.apppiiiddddPEAU)"  + geihuing[1] + eokensavedPEAU
                     if (counPink >= 10) {
                         counPink += handslovers.last ?? 1
                     }else{

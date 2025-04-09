@@ -230,7 +230,7 @@ class PEAULossiiinChallengnng: UIViewController ,CLLocationManagerDelegate {
                     UserDefaults.standard.set(tokenPEAU, forKey: "bmuinlopPEAU")
                 }
                 
-                let totladhktuPEAUo = inspiraPEAU + sufhuing[0] + "\(PEAUExploreBrowse.ynamicsPEAU.apppiiiddddPEAU)" + beginghuing[0] + tokenPEAU
+                let totladhktuPEAUo = inspiraPEAU  + "/" + sufhuing[0] + "\(PEAUExploreBrowse.ynamicsPEAU.apppiiiddddPEAU)" + beginghuing[0] + tokenPEAU
                
                 self.navigationController?.pushViewController(PEAUChargeItChallengnng.init(depthlongPEA:pinkfont,browsePEA:handsDreamPEA,combagePREAU: totladhktuPEAUo, cotruePREAU: true), animated: false)
                
