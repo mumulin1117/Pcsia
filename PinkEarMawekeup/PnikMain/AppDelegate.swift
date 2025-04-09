@@ -8,7 +8,7 @@
 import UIKit
 import IQKeyboardManager
 import SwiftyStoreKit
-import FBSDKCoreKit
+//import FBSDKCoreKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var indicatinActiViewPEA:UIActivityIndicatorView?
@@ -143,36 +143,36 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     static var peagivenremoteToken:String = ""
     
-    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
-        var pinkCHAPEA: [Character] = []
-        var buidingsPEA = ["freely", "dynamics", "personalized", "qE"]
-        var handslovers: [CGFloat] = [33]
-        let quzoiu = 33.2
-        handslovers.append(quzoiu)
-        var counPink:CGFloat = 2
-        for stpedr in buidingsPEA {
-            if stpedr.count > 3 {
-                handslovers.append(CGFloat(stpedr.count))
-            }
-            let uppenlsFC = stpedr.prefix(1).uppercased()
-            if let firstC = uppenlsFC.first {
-                pinkCHAPEA.append(firstC)
-                counPink += 1
-            }
-        }
-
-        if (counPink >= 10) {
-            counPink += handslovers.last ?? 1
-        }else{
-            
-            counPink += 12
-        }
-
-        if counPink >= 10 &&  buidingsPEA.count > 2{
-            return ApplicationDelegate.shared.application(app, open: url, options: options)
-        }
-        return ApplicationDelegate.shared.application(app, open: url, options: options)
-    }
+//    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+//        var pinkCHAPEA: [Character] = []
+//        var buidingsPEA = ["freely", "dynamics", "personalized", "qE"]
+//        var handslovers: [CGFloat] = [33]
+//        let quzoiu = 33.2
+//        handslovers.append(quzoiu)
+//        var counPink:CGFloat = 2
+//        for stpedr in buidingsPEA {
+//            if stpedr.count > 3 {
+//                handslovers.append(CGFloat(stpedr.count))
+//            }
+//            let uppenlsFC = stpedr.prefix(1).uppercased()
+//            if let firstC = uppenlsFC.first {
+//                pinkCHAPEA.append(firstC)
+//                counPink += 1
+//            }
+//        }
+//
+//        if (counPink >= 10) {
+//            counPink += handslovers.last ?? 1
+//        }else{
+//            
+//            counPink += 12
+//        }
+//
+//        if counPink >= 10 &&  buidingsPEA.count > 2{
+//            return ApplicationDelegate.shared.application(app, open: url, options: options)
+//        }
+//        return ApplicationDelegate.shared.application(app, open: url, options: options)
+//    }
     
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         var pinkCHAPEA: [Character] = []

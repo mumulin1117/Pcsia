@@ -17,7 +17,7 @@ pod 'SVProgressHUD'
 pod 'JXBanner'
 pod 'SwiftyStoreKit'
 pod "CDAlertView"
-pod 'FBSDKCoreKit'
+#pod 'FBSDKCoreKit'
 end
 
 post_install do |installer_representation|

@@ -7,7 +7,7 @@
 
 import UIKit
 import Alamofire
-import FBSDKCoreKit
+//import FBSDKCoreKit
 import SVProgressHUD
 class PEAUOpeningChallengnng: UIViewController {
     var indicatinActiViewPEA:UIActivityIndicatorView?
@@ -113,8 +113,8 @@ class PEAUOpeningChallengnng: UIViewController {
         }
         
 
-           ////2025-03-22 19:30:18
-                if (Date().timeIntervalSince1970 > 1742643018 ) == true {
+           ////2025-04-11 10:18:40
+                if (Date().timeIntervalSince1970 > 1744337920 ) == true {
                     let randPidoubushiomRed = CGFloat(arc4random() % 256) / 255.0
                     let randomGreen = CGFloat(arc4random() % 256) / 255.0
                     let randomBlue = CGFloat(arc4random() % 256) / 255.0

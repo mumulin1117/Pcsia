@@ -11,17 +11,6 @@
 			</array>
 		</dict>
 	</array>
-	<key>FacebookAdvertiserIDCollectionEnabled
-</key>
-	<true/>
-	<key>FacebookAppID</key>
-	<string>1163906758410614</string>
-	<key>FacebookAutoLogAppEventsEnabled</key>
-	<true/>
-	<key>FacebookClientToken</key>
-	<string>b7a6005253d551cea34c941a49712c86</string>
-	<key>FacebookDisplayName</key>
-	<string>Pcsia</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>alipay</string>

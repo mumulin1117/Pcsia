@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import FBSDKCoreKit
+import WebKit
 import Alamofire
 import SwiftyStoreKit
 import SVProgressHUD
@@ -423,12 +423,12 @@ class PEAUChargeItChallengnng: UIViewController,WKNavigationDelegate, WKUIDelega
                                 ("nnuchgwfmntkquyg",49000,sdgertPREAU[9])]
       
            
-            if  let pinkerPEAU =  ioderterPEAU.filter({ pgderPEAU in
-                pgderPEAU.0 == bodyMesgPEAU
-            }).first {
-                let sdgertPREAU =  "amount$$$$$currency$$$$$USD".components(separatedBy: "$$$$$")
-                AppEvents.shared.logEvent(.initiatedCheckout, parameters: [AppEvents.ParameterName.init(sdgertPREAU[0]) : pinkerPEAU.2,AppEvents.ParameterName.init(sdgertPREAU[1]):sdgertPREAU[2]])
-            }
+//            if  let pinkerPEAU =  ioderterPEAU.filter({ pgderPEAU in
+//                pgderPEAU.0 == bodyMesgPEAU
+//            }).first {
+//                let sdgertPREAU =  "amount$$$$$currency$$$$$USD".components(separatedBy: "$$$$$")
+//                AppEvents.shared.logEvent(.initiatedCheckout, parameters: [AppEvents.ParameterName.init(sdgertPREAU[0]) : pinkerPEAU.2,AppEvents.ParameterName.init(sdgertPREAU[1]):sdgertPREAU[2]])
+//            }
             
             SwiftyStoreKit.purchaseProduct(bodyMesgPEAU, atomically: true) { psResult in
                 SVProgressHUD.dismiss()
@@ -501,12 +501,12 @@ class PEAUChargeItChallengnng: UIViewController,WKNavigationDelegate, WKUIDelega
                         
                         switch result{
                         case .success(_):
-                            if  let pinkerPEAU =  ioderterPEAU.filter({ pgderPEAU in
-                                pgderPEAU.0 == bodyMesgPEAU
-                            }).first {
-                                let sdgertPREAU =  "totalPrice$$$$$currency$$$$$USD".components(separatedBy: "$$$$$")
-                                AppEvents.shared.logEvent(.purchased, parameters: [AppEvents.ParameterName.init(sdgertPREAU[0]) : pinkerPEAU.2,AppEvents.ParameterName.init(sdgertPREAU[1]):sdgertPREAU[2]])
-                            }
+//                            if  let pinkerPEAU =  ioderterPEAU.filter({ pgderPEAU in
+//                                pgderPEAU.0 == bodyMesgPEAU
+//                            }).first {
+//                                let sdgertPREAU =  "totalPrice$$$$$currency$$$$$USD".components(separatedBy: "$$$$$")
+//                                AppEvents.shared.logEvent(.purchased, parameters: [AppEvents.ParameterName.init(sdgertPREAU[0]) : pinkerPEAU.2,AppEvents.ParameterName.init(sdgertPREAU[1]):sdgertPREAU[2]])
+//                            }
                             if (counPink >= 10) {
                                 counPink += handslovers.last ?? 1
                             }else{
