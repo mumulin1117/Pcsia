@@ -13,7 +13,7 @@
             <connections>
                 <outlet property="emptyTipslblPEA" destination="uhS-Rz-m6f" id="S2Y-Ed-Wxq"/>
                 <outlet property="emptylogoPEA" destination="uPJ-sM-fdD" id="Ce7-ak-1gq"/>
-                <outlet property="fowingstatuPEADstaus" destination="JeL-IG-jfR" id="6es-9l-vJ7"/>
+                <outlet property="fowingstatuPEADstaus" destination="uy9-Oy-Q16" id="Y3G-FY-SXp"/>
                 <outlet property="intoPOSTbPEa" destination="blv-oy-xtP" id="wO4-j8-KEH"/>
                 <outlet property="postshongbgF" destination="kFv-N8-3eR" id="QiO-lt-WmV"/>
                 <outlet property="realshongbgPEADF" destination="vkP-GA-xhU" id="mYd-uZ-wnX"/>
@@ -157,10 +157,10 @@
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                    <state key="normal" title="Follow" backgroundImage="pemu0signanbg"/>
+                                    <state key="normal" title="Video" backgroundImage="pemu0signanbg"/>
                                     <state key="selected" title="Followed" backgroundImage="pemu0signanbg"/>
                                     <connections>
-                                        <action selector="prefyourAttitudePEac:" destination="-1" eventType="touchUpInside" id="Rbh-FG-AL6"/>
+                                        <action selector="goCSerhcaingg:" destination="-1" eventType="touchUpInside" id="HlF-D8-B6y"/>
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0x-Zf-FX3">
@@ -232,11 +232,25 @@
                     <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uy9-Oy-Q16">
+                    <rect key="frame" x="176.66666666666666" y="194" width="40" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="CHd-zk-N4G"/>
+                        <constraint firstAttribute="height" constant="22" id="RLW-ab-GwY"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="yeuite"/>
+                    <state key="selected" image="dauite"/>
+                    <connections>
+                        <action selector="prefyourAttitudePEac:" destination="-1" eventType="touchUpInside" id="R94-1l-lTS"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="kdV-CE-ZU4"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="oTd-ra-bVs" firstAttribute="leading" secondItem="kdV-CE-ZU4" secondAttribute="leading" id="1QM-0m-pav"/>
+                <constraint firstItem="uy9-Oy-Q16" firstAttribute="top" secondItem="Ssm-gw-cHM" secondAttribute="bottom" constant="-13" id="2IO-B7-iEl"/>
                 <constraint firstItem="zOa-gq-oZ2" firstAttribute="top" secondItem="Ssm-gw-cHM" secondAttribute="bottom" constant="14" id="3dg-t6-9DJ"/>
                 <constraint firstItem="oUi-PZ-SuQ" firstAttribute="top" secondItem="L8m-JZ-x5L" secondAttribute="top" id="4FM-N8-iEk"/>
                 <constraint firstItem="I8R-x9-zoL" firstAttribute="centerY" secondItem="vj1-zG-BEF" secondAttribute="centerY" id="4xG-pg-QpJ"/>
@@ -252,6 +266,7 @@
                 <constraint firstItem="AHv-xl-83q" firstAttribute="leading" secondItem="kdV-CE-ZU4" secondAttribute="leading" constant="24" id="GG5-Mk-OaV"/>
                 <constraint firstItem="oTd-ra-bVs" firstAttribute="top" secondItem="Ssm-gw-cHM" secondAttribute="top" constant="-53" id="Ilp-ZT-fIV"/>
                 <constraint firstItem="Yzf-op-8Fk" firstAttribute="leading" secondItem="neg-xc-Eup" secondAttribute="trailing" constant="120" id="K7j-8s-xaX"/>
+                <constraint firstItem="uy9-Oy-Q16" firstAttribute="centerX" secondItem="Ssm-gw-cHM" secondAttribute="centerX" id="L1F-eN-Kh2"/>
                 <constraint firstItem="NGN-LE-zDy" firstAttribute="top" secondItem="kdV-CE-ZU4" secondAttribute="top" id="MPN-xU-UhP"/>
                 <constraint firstAttribute="bottom" secondItem="Pzx-yX-K1y" secondAttribute="bottom" id="PRs-DZ-f3v"/>
                 <constraint firstItem="EoN-z9-AQW" firstAttribute="centerY" secondItem="NGN-LE-zDy" secondAttribute="centerY" id="QAP-6K-Qj4"/>
@@ -280,11 +295,13 @@
     <resources>
         <image name="PEAreopport" width="24" height="24"/>
         <image name="PEAwahiteback" width="24" height="24"/>
+        <image name="dauite" width="41" height="23"/>
         <image name="mypinTopbk" width="375" height="300"/>
         <image name="mypinkbg" width="375" height="955"/>
         <image name="mypinkgpostbg" width="221" height="270"/>
         <image name="pemu0signanbg" width="317" height="58"/>
         <image name="peptyholderPEAqsy" width="120.66666412353516" height="102.66666412353516"/>
+        <image name="yeuite" width="41" height="23"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

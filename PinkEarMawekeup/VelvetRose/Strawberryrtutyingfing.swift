@@ -323,4 +323,24 @@ class Strawberryrtutyingfing: UIViewController {
         self.navigationController?.pushViewController(descibePEAVC, animated: true)
        
     }
+    
+    
+    
+    
+    @IBAction func goCSerhcaingg(_ sender: Any) {
+        var pinkfont = UIFont.systemFont(ofSize: 12, weight: .medium)
+        if self.navigationController?.navigationBar.isHidden == true {
+            pinkfont = UIFont.systemFont(ofSize: 12, weight: .bold)
+        }
+        var twinklingDream = self.title ?? ""
+        if twinklingDream == ""{
+            twinklingDream = "inspiration"
+        }else{
+            twinklingDream.append("pinkper")
+        }
+        self.navigationController?.pushViewController(BlushBloomCing.init(depthlongPEA:pinkfont,userPEAloadDatr: changeDescibeDatPEA,browsePEA:twinklingDream), animated: true)
+//        let aleChating = SorbetSatin.init(depthlongPEA:pinkfont,isAiRovertChat: false, userPEAloadDatr: changeDescibeDatPEA,browsePEA:twinklingDream)
+//        
+//        self.navigationController?.pushViewController(aleChating, animated: true)
+    }
 }
