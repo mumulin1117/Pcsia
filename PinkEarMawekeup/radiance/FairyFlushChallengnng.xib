@@ -34,31 +34,76 @@
                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OJl-qX-Qng">
                             <rect key="frame" x="19" y="66" width="307" height="482"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <string key="text">1. Agreement Acceptance
+                            <mutableString key="text">End User License Agreement (EULA) for Pcsia
 ﻿
-By installing and using the Pcsia application ("App"), you ("User") agree to be bound by the terms and conditions of this End User License Agreement ("Agreement"). If you do not agree to these terms, do not use the App.
+1. Agreement Acceptance
+By installing and using Pcsia ("App"), you ("User") agree to be bound by these terms. If you disagree, do not use the App.
 ﻿
-2. License Grant
+2. Safety &amp; Content Standards (New prominent section)
+2.1 Pink Promise Community Guidelines
+All content must adhere to our:
+✓ Blush Filter: No explicit/suggestive imagery
+✓ Lipstick Lexicon: No hate speech, bullying, or harassment
+✓ Sugar-Coated Interactions: Respectful communication only
 ﻿
-The App is licensed to you for personal, non-commercial use only. You may not copy, modify, distribute, sell, or lease any part of the App, nor may you reverse engineer or attempt to extract the source code of the App.
+2.2 Moderation System
 ﻿
-3. Content and Challenges
+AI-powered and manual ("Pink Patrol") content review
+24-hour response guarantee for reports
+Three-strike policy:
+⚠️ 1st violation: "Time Out Powder Room" (temporary suspension)
+⚠️ 3rd violation: "Pink List Exclusion" (permanent ban)
+2.3 Real-Time Features
+All beauty consultations:
+☑️ Profile previews before interaction
+☑️ Explicit "Rosy Consent" protocol (Preview→Accept→Engage)
+☑️ Always-visible "Stain Report" button
 ﻿
-Users may publish and participate in pink makeup challenges. By doing so, you grant Pcsia a non-exclusive, royalty-free license to use, display, and distribute your content within the App. You are responsible for ensuring that your content complies with all applicable laws and regulations.
+3. License Grant
+Personal, non-commercial use only. No reverse engineering.
 ﻿
-4. Personalized Avatar and Nickname
+4. Content &amp; Challenges
+4.1 By participating, you grant Pcsia a non-exclusive license to display your content.
+4.2 All submissions must be:
+✓ Original creations
+✓ Properly categorized (e.g., #FantasyMakeup vs. #EverydayPink)
+✓ Tagged with accurate product lists
 ﻿
-You may create a personalized avatar and nickname within the App. You are responsible for ensuring that your avatar and nickname do not violate any third-party rights or contain offensive or inappropriate content.
+5. Avatar &amp; Profile
+5.1 Your "Pink Persona" (avatar/nickname) must not:
+✗ Infringe others' rights
+✗ Mimic celebrities/public figures
+✗ Contain hidden meanings (e.g., ASCII art)
 ﻿
-5. Termination
+6. Termination
+Pcsia may terminate access for:
 ﻿
-Pcsia may terminate this Agreement and your access to the App at any time for any reason, including but not limited to breach of this Agreement. Upon termination, you must cease all use of the App.
+Violation of Section 2 (Safety)
+Fraudulent activity
+Creating multiple accounts to bypass restrictions
+7. Governing Law
+Governed by laws of [Country/Region]. Disputes resolved via "Blush Arbitration" (non-public mediation).
 ﻿
-6. Governing Law
+Key Integration Features:
 ﻿
-This Agreement is governed by the laws of [Country/Region], without regard to its conflict of law principles.</string>
+Visual Hierarchy
+Safety Section (2) placed immediately after acceptance
+Pink-themed icons (✓✗☑️⚠️) for scannability
+Brand-Aligned Terminology
+"Pink Promise" instead of "Community Guidelines"
+"Blush Arbitration" for dispute resolution
+Explicit Prohibitions
+Added specific examples (ASCII art, celebrity mimicry)
+Clear 3-strike system with whimsical but serious consequences
+Process Transparency
+Outlined exact moderation workflow
+Defined response time SLAs
+Mobile-Friendly Formatting
+Short paragraphs + bullet points
+Emoji/icons as visual anchors
+This version maintains legal enforceability while making safety provisions both prominent and on-brand. The pink-themed terminology creates cohesive UX without diluting seriousness.</mutableString>
                             <color key="textColor" red="0.70196078431372544" green="0.70196078431372544" blue="0.70196078431372544" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <fontDescription key="fontDescription" name="AppleSymbols" family="Apple Symbols" pointSize="15"/>
                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                         </textView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C1r-oJ-FAd">
