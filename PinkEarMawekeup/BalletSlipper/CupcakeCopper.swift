@@ -101,7 +101,7 @@ class CupcakeCopper: UIViewController,JXBannerDataSource  {
         postViewPEA.rightView = UIView.init(frame: CGRect.init(x:0, y: 0, width: 42, height: 42))
        realNamePink.text = changeDescibeDatPEA["PEAusernkmer"]
         realdescribePEAlbl.text = changeDescibeDatPEA["PEAusernDesc"]
-        realstatusPEAber.isSelected = (changeDescibeDatPEA["heartCounForPUBPEA"] == "like")
+        realstatusPEAber.isSelected = (changeDescibeDatPEA["attitudeForPUBPEA"] == "like")
         
         realstatusPEAber.setTitle(changeDescibeDatPEA["heartCounForPUBPEA"] ?? "0", for: .normal)
         
@@ -205,17 +205,17 @@ class CupcakeCopper: UIViewController,JXBannerDataSource  {
             
             
             
-            let realoCounty = (Int(self.changeDescibeDatPEA["heartCounForPUBPEA"] ?? "0") ?? 0) + (sender.isSelected ? 1 : -1)
-            
-            self.putryViemelange.backgroundColor = UIColor(red: randPidoubushiomRed, green: randomGreen, blue: randomBlue, alpha: 1.0)
+           
             sender.isSelected = !sender.isSelected
             
          
+            let realoCounty = (Int(self.changeDescibeDatPEA["heartCounForPUBPEA"] ?? "0") ?? 0) + (sender.isSelected ? 1 : -1)
+            
+            self.putryViemelange.backgroundColor = UIColor(red: randPidoubushiomRed, green: randomGreen, blue: randomBlue, alpha: 1.0)
             
             
             
-            
-            self.changeDescibeDatPEA["heartCounForPUBPEA"]  = "\(realoCounty)"
+            self.changeDescibeDatPEA["heartCounForPUBPEA"]  = "\(realoCounty < 0 ? 0 :realoCounty)"
            
             sender.setTitle(self.changeDescibeDatPEA["heartCounForPUBPEA"] ?? "0", for: .normal)
             

@@ -95,7 +95,7 @@ class Relaitedmarshmallowng: UIViewController,UICollectionViewDelegate,UICollect
        
         manghuiViePEA.contentInsetAdjustmentBehavior = .never
         
-        let pesdNIB = UINib(nibName: "PEAURelaitedell", bundle: nil)
+        let pesdNIB = UINib(nibName: "Carnationlaitedell", bundle: nil)
                
         manghuiViePEA.register(pesdNIB, forCellWithReuseIdentifier: "PEAURelaitedellID")
         manghuiViePEA.showsVerticalScrollIndicator = false
