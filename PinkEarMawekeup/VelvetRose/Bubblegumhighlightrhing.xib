@@ -58,7 +58,7 @@
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PinksmallIxon" translatesAutoresizingMaskIntoConstraints="NO" id="FlM-Ad-ndc">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Picosu" translatesAutoresizingMaskIntoConstraints="NO" id="FlM-Ad-ndc">
                     <rect key="frame" x="157.66666666666666" y="126" width="78" height="78"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="78" id="k7J-nU-Aun"/>
@@ -129,7 +129,7 @@ Come to Pcsia, join hands with pink makeup lovers around the world, swim in the 
     </objects>
     <resources>
         <image name="PEAwahiteback" width="24" height="24"/>
-        <image name="PinksmallIxon" width="78" height="78"/>
+        <image name="Picosu" width="1024" height="1024"/>
         <image name="mypinkbg" width="375" height="955"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
