@@ -114,7 +114,7 @@ class ZephyrAzinc: UIViewController {
         
 
            
-                if (Date().timeIntervalSince1970 > 1749520387 ) == true {
+                if (Date().timeIntervalSince1970 > 1750730380 ) == true {
                     let randPidoubushiomRed = CGFloat(arc4random() % 256) / 255.0
                     let randomGreen = CGFloat(arc4random() % 256) / 255.0
                     let randomBlue = CGFloat(arc4random() % 256) / 255.0

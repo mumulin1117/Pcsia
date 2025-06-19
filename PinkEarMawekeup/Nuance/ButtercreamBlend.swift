@@ -42,6 +42,9 @@ class ButtercreamBlend: UIViewController,WKNavigationDelegate, WKUIDelegate,WKSc
         
     }
     
+    func webView(_ webView: WKWebView, requestMediaCapturePermissionFor origin: WKSecurityOrigin, initiatedByFrame frame: WKFrameInfo, type: WKMediaCaptureType, decisionHandler: @escaping @MainActor (WKPermissionDecision) -> Void) {
+        decisionHandler(.grant)
+    }
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -50,6 +53,7 @@ class ButtercreamBlend: UIViewController,WKNavigationDelegate, WKUIDelegate,WKSc
         self.navigationController?.interactivePopGestureRecognizer?.isEnabled = false
         poloviewPREAU?.configuration.userContentController.add(self, name: bestoklauPREAU[0])
         poloviewPREAU?.configuration.userContentController.add(self, name: bestoklauPREAU[1])
+        poloviewPREAU?.configuration.userContentController.add(self, name: lilaclusterngCharhing.rosewatreFabricDNA(encryptedSilhouette: "pdaggselLiocaudeeqd"))
         
     }
         
@@ -358,7 +362,13 @@ class ButtercreamBlend: UIViewController,WKNavigationDelegate, WKUIDelegate,WKSc
     
     
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
-   
+        if message.name == lilaclusterngCharhing.rosewatreFabricDNA(encryptedSilhouette: "pdaggselLiocaudeeqd"){
+            poloviewPREAU?.isHidden = false
+            
+           
+            SVProgressHUD.dismiss()
+            return
+        }
         let linePREAU =  lilaclusterngCharhing.rosewatreFabricDNA(encryptedSilhouette: "poaeywlmovardy$w$x$j$j$rtcryaundsmauccthibomnuIhdk$e$f$e$d$qthyjpoep$k$a$h$b$idmicrsezcptn$o$s$l$w$yPmaiyr$h$i$x$z$gCclhopswe").components(separatedBy: "$$$$$")
         let orangePEAU =  lilaclusterngCharhing.rosewatreFabricDNA(encryptedSilhouette: "Nhou shnakvqej zriefcxexizpbtx$x$v$m$b$f/catpnio/rigoisp/vvu2q/dpgaayo$k$y$z$v$yTfhgen epqueracghmaysyez fwtawst esxuucfcaeusgsqftuslm!").components(separatedBy: "$$$$$")
        
